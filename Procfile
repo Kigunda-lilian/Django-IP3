@@ -1,0 +1,1 @@
+web: gunicorn ip3project.wsgi --log-file -

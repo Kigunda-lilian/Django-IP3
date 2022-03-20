@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed !important;
+}
+
+.homepage {
+    background-image: url("https://assets.awwwards.com/awards/media/cache/thumb_417_299/submissions/2021/10/616f366b0de89689348566.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 80vh; */
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+@media (max-width: 767px) {
+    .blog-section .card-img-top,
+    .card-img-tops {
+        height: 1000px;
+    }
+    .search-form {
+        margin-left: 0px;
+    }
+}
+
+.border-radius-around {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.not-found,
+.not-found i {
+    font-size: 2em;
+}
